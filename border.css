@@ -1,0 +1,44 @@
+/* * {
+    margin: 0%;
+    padding: 0%;
+}
+
+.paddingf {
+    background-color: brown;
+    height: 80px;
+    width: 100px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+.paddings {
+    background-color: brown;
+    height: 80px;
+    width: 100px;
+    border: 2px solid black;
+    padding-top: 20px;
+} */
+
+/* sstyle for flex */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container-flex{
+    display: flex;
+    justify-content :space-evenly;
+   
+    
+}
+
+section > div {
+    border: 2px solid black;
+    height: 200px;
+    width: 23%;
+
+}
+
+
+
